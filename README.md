@@ -19,19 +19,19 @@ User enters their username and password to log in.
 
 ### 2. Token stored in sessionStorage (DevTools)
 After logging in, the JWT token is successfully stored in the browser's Developer Tools under Session Storage.
-![Token in Session Storage](screenshots/Screenshot%202026-04-15%20154401.png)
+![Token in Session Storage](screenshots/Screenshot%202026-04-15%20155804.png)
 
 ### 3. Access Protected API
 The protected dashboard successfully fetches authorized data from the backend using the Bearer token.
-![Access Protected API](screenshots/Screenshot%202026-04-15%20154841.png)
+![Access Protected API](screenshots/Screenshot%202026-04-15%20154401.png)
 
 ### 4. Unauthorized Access (Redirect to Login)
 Attempting to directly navigate to the Dashboard (e.g., in Incognito without a token) strictly denies entry and forces the user out.
-![Unauthorized Access](screenshots/Screenshot%202026-04-15%20155625.png)
+![Unauthorized Access](screenshots/Screenshot%202026-04-15%20154841.png)
 
 ### 5. Logout Functionality
 Triggering the Logout function removes the local token entirely and returns the user to the login screen.
-![Logout Functionality](screenshots/Screenshot%202026-04-15%20155804.png)
+![Logout Functionality](screenshots/Screenshot%202026-04-15%20155625.png)
 
 ---
 
